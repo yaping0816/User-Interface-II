@@ -139,3 +139,13 @@ section {
       margin-top: 7%;
       width: 80%;
   }
+
+  .projectsContainer, .imageContainer{
+      display:flex;
+      justify-content: space-between;    
+  }
+  .projectsContainer img, .imageContainer img{
+      width:20%;
+  }
+
+
