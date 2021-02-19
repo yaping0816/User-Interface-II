@@ -104,3 +104,38 @@ section {
       background-color:#3B592D;
       color:#D99E6A ;
   }
+
+  .introduction{
+      display:flex;
+
+  }
+  .left {
+      width: 40%; 
+  }
+  .left img{
+      width: 110%;
+  }
+  .right{
+      width:60%;
+      padding-top:5%;
+      padding-left:5%;
+  }
+  h2 {
+      font-size: 2rem;
+  }
+  button {
+      padding: 1%;
+      width: 20%;
+      margin-top: 7%;
+      font-size: 1.2rem;
+      font-family: 'Anton', sans-serif;
+      transition: 2s;
+  }
+  button:hover{
+      color:rgb(214, 176, 200);
+      background-color: #4f4f4f;
+  }
+  .right p{
+      margin-top: 7%;
+      width: 80%;
+  }
