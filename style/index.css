@@ -81,11 +81,10 @@ a {
 section {
     padding: 4% 0;
     
-    border: 1px solid red;
   }
 
   /* webpage styles go under here */
-  header {
+  header, footer{
       background-color: rgb(214, 176, 200);
       height: 20vh;
       padding: 2%;
@@ -147,5 +146,27 @@ section {
   .projectsContainer img, .imageContainer img{
       width:20%;
   }
+
+  footer {
+      text-align: center;
+  }
+
+  .button{
+      margin:2%;
+  }
+
+  .button a{
+      border: 2px solid #4f4f4f;
+      padding: 1%;
+      background-color: white;
+      transition: 2s;
+  }
+
+  .button a:hover {
+      color:antiquewhite;
+      background-color:#3B592D ;
+  }
+
+
 
 
