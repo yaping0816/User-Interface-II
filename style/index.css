@@ -171,6 +171,50 @@ section {
       background-color:#3B592D ;
   }
 
+  /* Responsive styles */
+  /* introduce media queries with max-width 800px */
+  @media (max-width: 800px) {
+      main {
+          padding: 3%;
+      }
+      header{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+
+      header nav {
+          display: flex;
+      }
+
+      .introduction{
+          justify-content:space-between;
+      }
+      .left{
+        display: flex;
+        align-items: center;
+    }
+
+      .right{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    .right button{
+        width:80%;
+        margin-top: 1%;
+    }
+
+    .right p{
+        width: 100%;
+    }
+
+  }
+
+
+
 
 
 
