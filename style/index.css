@@ -84,6 +84,9 @@ section {
   }
 
   /* webpage styles go under here */
+  main {
+      padding: 0 1%;
+  }
   header, footer{
       background-color: rgb(214, 176, 200);
       height: 20vh;
@@ -93,11 +96,12 @@ section {
       font-size: 3rem;
   }
   header nav {
-      margin: 1%;
+      margin: 2%;
   }
   header nav a {
       border: 3px solid #4f4f4f;
       transition: 2s;
+      padding: 1%;
   }
   header nav a:hover {
       background-color:#3B592D;
