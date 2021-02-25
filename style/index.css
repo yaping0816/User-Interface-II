@@ -186,6 +186,9 @@ section {
 
       header nav {
           display: flex;
+         width: 80%;
+         /* margin: 0 auto; */
+         justify-content: space-around;
       }
 
       .introduction{
@@ -199,12 +202,24 @@ section {
       .right{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+
+    .right #top {
+        display: flex;
+        width: 100%;
         justify-content: space-around;
+        
 
     }
+    /* #button{
+        width: 40%;
+        
+    } */
     .right button{
-        width:80%;
-        margin-top: 1%;
+        width:50%;
+        margin-top: 0;
     }
 
     .right p{
@@ -248,8 +263,13 @@ section {
             flex-wrap:nowrap;
             justify-content: space-between;
         }
+        .right #top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         .right button {
-            margin-top: 20%;
+            margin-top: 10%;
         }
         .projectsContainer, .imageContainer{
             flex-wrap: wrap;
@@ -258,6 +278,8 @@ section {
         .projectsContainer img, .imageContainer img{
             width:45%;
             margin-bottom: 4%;
+        }
+
         }
 
     }
