@@ -178,10 +178,11 @@ section {
 
   footer {
       text-align: center;
+      padding-top: 5%;
   }
 
   .button{
-      margin:2%;
+      margin:5% auto;
   }
 
   .button a{
@@ -200,6 +201,25 @@ section {
   introduce media queries with min-width 500px */
 
 @media(min-width: 500px){
+    header nav {
+        flex-direction: row;
+    }
+    .introduction{
+        flex-direction: row;
+    }
+    .right #top{
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    button{
+        margin-top: 0;
+        padding:5%;
+    }
+    .projectsContainer img, .imageContainer img{
+        width:23%;
+        margin-bottom: 2%;
+    }
 
 }
   /* @media (max-width: 800px) {
